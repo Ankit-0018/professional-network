@@ -5,7 +5,7 @@
 Professional Network is a **full-stack web application** that allows users to register, log in, and interact in a professional social network environment. Users can create profiles, post updates, and connect with others.
 ## Live Demo
 
-You can try the app live here: [Professional Network Live](https:professional-network.onrender.com)
+You can try the app live here: [Professional Network Live](https://professional-network.onrender.com)
 
 ---
 
