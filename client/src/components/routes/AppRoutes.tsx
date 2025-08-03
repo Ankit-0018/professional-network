@@ -1,4 +1,4 @@
-import { createBrowserRouter } from "react-router-dom";
+import { createBrowserRouter, Navigate } from "react-router-dom";
 import { RegisterForm } from "../RegisterForm";
 import { LoginForm } from "../LoginForm";
 import AuthLayout from "../AuthLayout";
@@ -10,6 +10,10 @@ import { ProfilePage } from "../../pages/Profile";
     {
         path : "/register",
         element : <RegisterForm />
+    },
+    {
+   path : "/" ,
+   element :  <Navigate to="/login" replace />
     },
     {
         path : "/login",
